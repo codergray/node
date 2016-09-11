@@ -1,0 +1,52 @@
+#!/usr/bin/env node
+
+/**
+ * Module dependencies.
+ */
+
+var app = require('../app');
+
+var config = require('../config/config');
+/**
+ * Get port from environment and store in Express.
+ */
+
+
+var port = normalizePort(config.port || '3001');
+app.set('port', port);
+
+function normalizePort(val) {
+  var port = parseInt(val, 10);
+
+  if (isNaN(port)) {
+    // named pipe
+    return val;
+  }
+
+  if (port >= 0) {
+    // port number
+    return port;
+  }
+
+  return false;
+}
+
+
+
+var Waterline    = require('waterline');
+var WConfig = require('../config/waterline');
+
+WConfig.orm.initialize(WConfig.config,function(err,models){
+    if(err) {
+        console.log('waterline initialize failed, err:', err);
+        return;
+      }
+      console.log('waterline initialize success.');
+
+      app.set('models', models.collections);
+
+      app.listen(port, function(){
+        console.log('Express listening on port:', port);
+      });
+
+});
