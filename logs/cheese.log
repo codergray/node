@@ -1,0 +1,136 @@
+[2016-09-11 21:58:21.340] [INFO] cheese - ::ffff:127.0.0.1 - - "GET /user/list HTTP/1.1" 304 - "" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.89 Safari/537.36"
+[2016-09-11 21:58:34.323] [INFO] cheese - ::ffff:127.0.0.1 - - "GET /user HTTP/1.1" 304 - "" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.89 Safari/537.36"
+[2016-09-11 22:23:36.441] [INFO] cheese - ::ffff:127.0.0.1 - - "GET /user HTTP/1.1" 304 - "" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.89 Safari/537.36"
+[2016-09-11 22:23:39.707] [INFO] cheese - ::ffff:127.0.0.1 - - "GET / HTTP/1.1" 304 - "" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.89 Safari/537.36"
+[2016-09-11 22:23:39.719] [INFO] cheese - ::ffff:127.0.0.1 - - "GET /stylesheets/style.css HTTP/1.1" 304 - "http://127.0.0.1:3000/" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.89 Safari/537.36"
+[2016-09-11 22:24:49.974] [INFO] cheese - ::ffff:127.0.0.1 - - "GET / HTTP/1.1" 304 - "" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.89 Safari/537.36"
+[2016-09-11 22:24:49.983] [INFO] cheese - ::ffff:127.0.0.1 - - "GET /stylesheets/style.css HTTP/1.1" 304 - "http://127.0.0.1:3000/" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.89 Safari/537.36"
+[2016-09-11 22:24:54.575] [INFO] cheese - ::ffff:127.0.0.1 - - "GET /user HTTP/1.1" 304 - "" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.89 Safari/537.36"
+[2016-09-11 23:26:55.582] [ERROR] cheese - waterline initialize failed, err: Error (E_UNKNOWN) :: Encountered an unexpected error
+: Could not connect to MySQL:
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at afterwards (F:\node\nodeApp\node_modules\sails-mysql\lib\connections\spawn.js:72:13)
+    at F:\node\nodeApp\node_modules\sails-mysql\lib\connections\spawn.js:40:7
+    at Handshake.onConnect (F:\node\nodeApp\node_modules\sails-mysql\node_modules\mysql\lib\Pool.js:54:9)
+    at Handshake.Sequence.end (F:\node\nodeApp\node_modules\sails-mysql\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Protocol.handleNetworkError (F:\node\nodeApp\node_modules\sails-mysql\node_modules\mysql\lib\protocol\Protocol.js:364:14)
+    at PoolConnection.Connection._handleNetworkError (F:\node\nodeApp\node_modules\sails-mysql\node_modules\mysql\lib\Connection.js:421:18)
+    at emitOne (events.js:77:13)
+    at Socket.emit (events.js:169:7)
+    at emitErrorNT (net.js:1255:8)
+    at nextTickCallbackWith2Args (node.js:437:9)
+    at process._tickCallback (node.js:351:17)
+
+Details:  Error: Could not connect to MySQL:
+Error: connect ECONNREFUSED 127.0.0.1:3306
+
+Error (E_UNKNOWN) :: Encountered an unexpected error
+: Could not connect to MySQL:
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at afterwards (F:\node\nodeApp\node_modules\sails-mysql\lib\connections\spawn.js:72:13)
+    at F:\node\nodeApp\node_modules\sails-mysql\lib\connections\spawn.js:40:7
+    at Handshake.onConnect (F:\node\nodeApp\node_modules\sails-mysql\node_modules\mysql\lib\Pool.js:54:9)
+    at Handshake.Sequence.end (F:\node\nodeApp\node_modules\sails-mysql\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Protocol.handleNetworkError (F:\node\nodeApp\node_modules\sails-mysql\node_modules\mysql\lib\protocol\Protocol.js:364:14)
+    at PoolConnection.Connection._handleNetworkError (F:\node\nodeApp\node_modules\sails-mysql\node_modules\mysql\lib\Connection.js:421:18)
+    at emitOne (events.js:77:13)
+    at Socket.emit (events.js:169:7)
+    at emitErrorNT (net.js:1255:8)
+    at nextTickCallbackWith2Args (node.js:437:9)
+    at process._tickCallback (node.js:351:17)
+[2016-09-11 23:26:55.582] [ERROR] cheese - waterline initialize failed, err: Error (E_UNKNOWN) :: Encountered an unexpected error
+: Could not connect to MySQL:
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at afterwards (F:\node\nodeApp\node_modules\sails-mysql\lib\connections\spawn.js:72:13)
+    at F:\node\nodeApp\node_modules\sails-mysql\lib\connections\spawn.js:40:7
+    at Handshake.onConnect (F:\node\nodeApp\node_modules\sails-mysql\node_modules\mysql\lib\Pool.js:54:9)
+    at Handshake.Sequence.end (F:\node\nodeApp\node_modules\sails-mysql\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Protocol.handleNetworkError (F:\node\nodeApp\node_modules\sails-mysql\node_modules\mysql\lib\protocol\Protocol.js:364:14)
+    at PoolConnection.Connection._handleNetworkError (F:\node\nodeApp\node_modules\sails-mysql\node_modules\mysql\lib\Connection.js:421:18)
+    at emitOne (events.js:77:13)
+    at Socket.emit (events.js:169:7)
+    at emitErrorNT (net.js:1255:8)
+    at nextTickCallbackWith2Args (node.js:437:9)
+    at process._tickCallback (node.js:351:17)
+
+Details:  Error: Could not connect to MySQL:
+Error: connect ECONNREFUSED 127.0.0.1:3306
+
+Error (E_UNKNOWN) :: Encountered an unexpected error
+: Could not connect to MySQL:
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at afterwards (F:\node\nodeApp\node_modules\sails-mysql\lib\connections\spawn.js:72:13)
+    at F:\node\nodeApp\node_modules\sails-mysql\lib\connections\spawn.js:40:7
+    at Handshake.onConnect (F:\node\nodeApp\node_modules\sails-mysql\node_modules\mysql\lib\Pool.js:54:9)
+    at Handshake.Sequence.end (F:\node\nodeApp\node_modules\sails-mysql\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Protocol.handleNetworkError (F:\node\nodeApp\node_modules\sails-mysql\node_modules\mysql\lib\protocol\Protocol.js:364:14)
+    at PoolConnection.Connection._handleNetworkError (F:\node\nodeApp\node_modules\sails-mysql\node_modules\mysql\lib\Connection.js:421:18)
+    at emitOne (events.js:77:13)
+    at Socket.emit (events.js:169:7)
+    at emitErrorNT (net.js:1255:8)
+    at nextTickCallbackWith2Args (node.js:437:9)
+    at process._tickCallback (node.js:351:17)
+[2016-09-11 23:27:18.552] [ERROR] cheese - waterline initialize failed, err: Error (E_UNKNOWN) :: Encountered an unexpected error
+: Could not connect to MySQL:
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at afterwards (F:\node\nodeApp\node_modules\sails-mysql\lib\connections\spawn.js:72:13)
+    at F:\node\nodeApp\node_modules\sails-mysql\lib\connections\spawn.js:40:7
+    at Handshake.onConnect (F:\node\nodeApp\node_modules\sails-mysql\node_modules\mysql\lib\Pool.js:54:9)
+    at Handshake.Sequence.end (F:\node\nodeApp\node_modules\sails-mysql\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Protocol.handleNetworkError (F:\node\nodeApp\node_modules\sails-mysql\node_modules\mysql\lib\protocol\Protocol.js:364:14)
+    at PoolConnection.Connection._handleNetworkError (F:\node\nodeApp\node_modules\sails-mysql\node_modules\mysql\lib\Connection.js:421:18)
+    at emitOne (events.js:77:13)
+    at Socket.emit (events.js:169:7)
+    at emitErrorNT (net.js:1255:8)
+    at nextTickCallbackWith2Args (node.js:437:9)
+    at process._tickCallback (node.js:351:17)
+
+Details:  Error: Could not connect to MySQL:
+Error: connect ECONNREFUSED 127.0.0.1:3306
+
+Error (E_UNKNOWN) :: Encountered an unexpected error
+: Could not connect to MySQL:
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at afterwards (F:\node\nodeApp\node_modules\sails-mysql\lib\connections\spawn.js:72:13)
+    at F:\node\nodeApp\node_modules\sails-mysql\lib\connections\spawn.js:40:7
+    at Handshake.onConnect (F:\node\nodeApp\node_modules\sails-mysql\node_modules\mysql\lib\Pool.js:54:9)
+    at Handshake.Sequence.end (F:\node\nodeApp\node_modules\sails-mysql\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Protocol.handleNetworkError (F:\node\nodeApp\node_modules\sails-mysql\node_modules\mysql\lib\protocol\Protocol.js:364:14)
+    at PoolConnection.Connection._handleNetworkError (F:\node\nodeApp\node_modules\sails-mysql\node_modules\mysql\lib\Connection.js:421:18)
+    at emitOne (events.js:77:13)
+    at Socket.emit (events.js:169:7)
+    at emitErrorNT (net.js:1255:8)
+    at nextTickCallbackWith2Args (node.js:437:9)
+    at process._tickCallback (node.js:351:17)
+[2016-09-11 23:27:18.552] [ERROR] cheese - waterline initialize failed, err: Error (E_UNKNOWN) :: Encountered an unexpected error
+: Could not connect to MySQL:
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at afterwards (F:\node\nodeApp\node_modules\sails-mysql\lib\connections\spawn.js:72:13)
+    at F:\node\nodeApp\node_modules\sails-mysql\lib\connections\spawn.js:40:7
+    at Handshake.onConnect (F:\node\nodeApp\node_modules\sails-mysql\node_modules\mysql\lib\Pool.js:54:9)
+    at Handshake.Sequence.end (F:\node\nodeApp\node_modules\sails-mysql\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Protocol.handleNetworkError (F:\node\nodeApp\node_modules\sails-mysql\node_modules\mysql\lib\protocol\Protocol.js:364:14)
+    at PoolConnection.Connection._handleNetworkError (F:\node\nodeApp\node_modules\sails-mysql\node_modules\mysql\lib\Connection.js:421:18)
+    at emitOne (events.js:77:13)
+    at Socket.emit (events.js:169:7)
+    at emitErrorNT (net.js:1255:8)
+    at nextTickCallbackWith2Args (node.js:437:9)
+    at process._tickCallback (node.js:351:17)
+
+Details:  Error: Could not connect to MySQL:
+Error: connect ECONNREFUSED 127.0.0.1:3306
+
+Error (E_UNKNOWN) :: Encountered an unexpected error
+: Could not connect to MySQL:
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at afterwards (F:\node\nodeApp\node_modules\sails-mysql\lib\connections\spawn.js:72:13)
+    at F:\node\nodeApp\node_modules\sails-mysql\lib\connections\spawn.js:40:7
+    at Handshake.onConnect (F:\node\nodeApp\node_modules\sails-mysql\node_modules\mysql\lib\Pool.js:54:9)
+    at Handshake.Sequence.end (F:\node\nodeApp\node_modules\sails-mysql\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Protocol.handleNetworkError (F:\node\nodeApp\node_modules\sails-mysql\node_modules\mysql\lib\protocol\Protocol.js:364:14)
+    at PoolConnection.Connection._handleNetworkError (F:\node\nodeApp\node_modules\sails-mysql\node_modules\mysql\lib\Connection.js:421:18)
+    at emitOne (events.js:77:13)
+    at Socket.emit (events.js:169:7)
+    at emitErrorNT (net.js:1255:8)
+    at nextTickCallbackWith2Args (node.js:437:9)
+    at process._tickCallback (node.js:351:17)
