@@ -23,8 +23,7 @@ module.exports={
             user      : 'username',
             password  : 'password',
             database  : 'MySQL Database Name',
-            charset   : 'utf8',
-            collation : 'utf8_swedish_ci'
+            charset   : 'utf8'
         },
         redis: {
             adapter: "sails-redis",

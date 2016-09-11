@@ -8,13 +8,17 @@ var config = require('./config');
 var user =require('../app/models/userModels');;
 var wlconfig = {
     adapters: {
-        mongo: mongoAdapter,
-        default: 'mongo'
+        mysql: mysqlAdapter,
+        default: mysqlAdapter
     },
     connections:{
-        mongo: {
-            adapter: 'mongo',
-            url: config.connections.mongo
+        mysql: {
+            adapter: 'mysql',
+            host : config.connections.mysql.host,
+            port : config.connections.mysql.port,
+            user : config.connections.mysql.user,
+            password : config.connections.mysql.password,
+            database : config.connections.mysql.database
         }
     }
 };
