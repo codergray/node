@@ -134,3 +134,127 @@ Error: connect ECONNREFUSED 127.0.0.1:3306
     at emitErrorNT (net.js:1255:8)
     at nextTickCallbackWith2Args (node.js:437:9)
     at process._tickCallback (node.js:351:17)
+[2016-09-12 00:13:08.108] [ERROR] cheese - waterline initialize failed, err: Error (E_UNKNOWN) :: Encountered an unexpected error
+: Could not connect to MySQL:
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at afterwards (F:\node\nodeApp\node_modules\sails-mysql\lib\connections\spawn.js:72:13)
+    at F:\node\nodeApp\node_modules\sails-mysql\lib\connections\spawn.js:40:7
+    at Handshake.onConnect (F:\node\nodeApp\node_modules\sails-mysql\node_modules\mysql\lib\Pool.js:54:9)
+    at Handshake.Sequence.end (F:\node\nodeApp\node_modules\sails-mysql\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Protocol.handleNetworkError (F:\node\nodeApp\node_modules\sails-mysql\node_modules\mysql\lib\protocol\Protocol.js:364:14)
+    at PoolConnection.Connection._handleNetworkError (F:\node\nodeApp\node_modules\sails-mysql\node_modules\mysql\lib\Connection.js:421:18)
+    at emitOne (events.js:77:13)
+    at Socket.emit (events.js:169:7)
+    at emitErrorNT (net.js:1255:8)
+    at nextTickCallbackWith2Args (node.js:437:9)
+    at process._tickCallback (node.js:351:17)
+
+Details:  Error: Could not connect to MySQL:
+Error: connect ECONNREFUSED 127.0.0.1:3306
+
+Error (E_UNKNOWN) :: Encountered an unexpected error
+: Could not connect to MySQL:
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at afterwards (F:\node\nodeApp\node_modules\sails-mysql\lib\connections\spawn.js:72:13)
+    at F:\node\nodeApp\node_modules\sails-mysql\lib\connections\spawn.js:40:7
+    at Handshake.onConnect (F:\node\nodeApp\node_modules\sails-mysql\node_modules\mysql\lib\Pool.js:54:9)
+    at Handshake.Sequence.end (F:\node\nodeApp\node_modules\sails-mysql\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Protocol.handleNetworkError (F:\node\nodeApp\node_modules\sails-mysql\node_modules\mysql\lib\protocol\Protocol.js:364:14)
+    at PoolConnection.Connection._handleNetworkError (F:\node\nodeApp\node_modules\sails-mysql\node_modules\mysql\lib\Connection.js:421:18)
+    at emitOne (events.js:77:13)
+    at Socket.emit (events.js:169:7)
+    at emitErrorNT (net.js:1255:8)
+    at nextTickCallbackWith2Args (node.js:437:9)
+    at process._tickCallback (node.js:351:17)
+[2016-09-12 00:13:08.108] [ERROR] cheese - waterline initialize failed, err: Error (E_UNKNOWN) :: Encountered an unexpected error
+: Could not connect to MySQL:
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at afterwards (F:\node\nodeApp\node_modules\sails-mysql\lib\connections\spawn.js:72:13)
+    at F:\node\nodeApp\node_modules\sails-mysql\lib\connections\spawn.js:40:7
+    at Handshake.onConnect (F:\node\nodeApp\node_modules\sails-mysql\node_modules\mysql\lib\Pool.js:54:9)
+    at Handshake.Sequence.end (F:\node\nodeApp\node_modules\sails-mysql\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Protocol.handleNetworkError (F:\node\nodeApp\node_modules\sails-mysql\node_modules\mysql\lib\protocol\Protocol.js:364:14)
+    at PoolConnection.Connection._handleNetworkError (F:\node\nodeApp\node_modules\sails-mysql\node_modules\mysql\lib\Connection.js:421:18)
+    at emitOne (events.js:77:13)
+    at Socket.emit (events.js:169:7)
+    at emitErrorNT (net.js:1255:8)
+    at nextTickCallbackWith2Args (node.js:437:9)
+    at process._tickCallback (node.js:351:17)
+
+Details:  Error: Could not connect to MySQL:
+Error: connect ECONNREFUSED 127.0.0.1:3306
+
+Error (E_UNKNOWN) :: Encountered an unexpected error
+: Could not connect to MySQL:
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at afterwards (F:\node\nodeApp\node_modules\sails-mysql\lib\connections\spawn.js:72:13)
+    at F:\node\nodeApp\node_modules\sails-mysql\lib\connections\spawn.js:40:7
+    at Handshake.onConnect (F:\node\nodeApp\node_modules\sails-mysql\node_modules\mysql\lib\Pool.js:54:9)
+    at Handshake.Sequence.end (F:\node\nodeApp\node_modules\sails-mysql\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Protocol.handleNetworkError (F:\node\nodeApp\node_modules\sails-mysql\node_modules\mysql\lib\protocol\Protocol.js:364:14)
+    at PoolConnection.Connection._handleNetworkError (F:\node\nodeApp\node_modules\sails-mysql\node_modules\mysql\lib\Connection.js:421:18)
+    at emitOne (events.js:77:13)
+    at Socket.emit (events.js:169:7)
+    at emitErrorNT (net.js:1255:8)
+    at nextTickCallbackWith2Args (node.js:437:9)
+    at process._tickCallback (node.js:351:17)
+[2016-09-12 00:13:34.699] [ERROR] cheese - waterline initialize failed, err: { [Error: Failed to connect to MongoDB.  Are you sure your configured Mongo instance is running?
+ Error details:
+{ [MongoError: connect ECONNREFUSED 127.0.0.1:27017]
+  name: 'MongoError',
+  message: 'connect ECONNREFUSED 127.0.0.1:27017' }]
+  originalError: 
+   { [MongoError: connect ECONNREFUSED 127.0.0.1:27017]
+     name: 'MongoError',
+     message: 'connect ECONNREFUSED 127.0.0.1:27017' } }
+Error: Failed to connect to MongoDB.  Are you sure your configured Mongo instance is running?
+ Error details:
+{ [MongoError: connect ECONNREFUSED 127.0.0.1:27017]
+  name: 'MongoError',
+  message: 'connect ECONNREFUSED 127.0.0.1:27017' }
+    at _createError (F:\node\nodeApp\node_modules\sails-mongo\lib\adapter.js:117:23)
+    at F:\node\nodeApp\node_modules\sails-mongo\lib\adapter.js:120:13
+    at F:\node\nodeApp\node_modules\sails-mongo\lib\connection.js:25:20
+    at F:\node\nodeApp\node_modules\sails-mongo\node_modules\mongodb\lib\mongo_client.js:276:20
+    at F:\node\nodeApp\node_modules\sails-mongo\node_modules\mongodb\lib\db.js:224:14
+    at null.<anonymous> (F:\node\nodeApp\node_modules\sails-mongo\node_modules\mongodb\lib\server.js:234:9)
+    at g (events.js:260:16)
+    at emitTwo (events.js:87:13)
+    at emit (events.js:172:7)
+    at null.<anonymous> (F:\node\nodeApp\node_modules\sails-mongo\node_modules\mongodb\node_modules\mongodb-core\lib\topologies\server.js:301:68)
+    at emitTwo (events.js:87:13)
+    at emit (events.js:172:7)
+    at null.<anonymous> (F:\node\nodeApp\node_modules\sails-mongo\node_modules\mongodb\node_modules\mongodb-core\lib\connection\pool.js:132:12)
+    at g (events.js:260:16)
+    at emitTwo (events.js:87:13)
+    at emit (events.js:172:7)
+[2016-09-12 00:13:34.699] [ERROR] cheese - waterline initialize failed, err: { [Error: Failed to connect to MongoDB.  Are you sure your configured Mongo instance is running?
+ Error details:
+{ [MongoError: connect ECONNREFUSED 127.0.0.1:27017]
+  name: 'MongoError',
+  message: 'connect ECONNREFUSED 127.0.0.1:27017' }]
+  originalError: 
+   { [MongoError: connect ECONNREFUSED 127.0.0.1:27017]
+     name: 'MongoError',
+     message: 'connect ECONNREFUSED 127.0.0.1:27017' } }
+Error: Failed to connect to MongoDB.  Are you sure your configured Mongo instance is running?
+ Error details:
+{ [MongoError: connect ECONNREFUSED 127.0.0.1:27017]
+  name: 'MongoError',
+  message: 'connect ECONNREFUSED 127.0.0.1:27017' }
+    at _createError (F:\node\nodeApp\node_modules\sails-mongo\lib\adapter.js:117:23)
+    at F:\node\nodeApp\node_modules\sails-mongo\lib\adapter.js:120:13
+    at F:\node\nodeApp\node_modules\sails-mongo\lib\connection.js:25:20
+    at F:\node\nodeApp\node_modules\sails-mongo\node_modules\mongodb\lib\mongo_client.js:276:20
+    at F:\node\nodeApp\node_modules\sails-mongo\node_modules\mongodb\lib\db.js:224:14
+    at null.<anonymous> (F:\node\nodeApp\node_modules\sails-mongo\node_modules\mongodb\lib\server.js:234:9)
+    at g (events.js:260:16)
+    at emitTwo (events.js:87:13)
+    at emit (events.js:172:7)
+    at null.<anonymous> (F:\node\nodeApp\node_modules\sails-mongo\node_modules\mongodb\node_modules\mongodb-core\lib\topologies\server.js:301:68)
+    at emitTwo (events.js:87:13)
+    at emit (events.js:172:7)
+    at null.<anonymous> (F:\node\nodeApp\node_modules\sails-mongo\node_modules\mongodb\node_modules\mongodb-core\lib\connection\pool.js:132:12)
+    at g (events.js:260:16)
+    at emitTwo (events.js:87:13)
+    at emit (events.js:172:7)

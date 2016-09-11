@@ -7,8 +7,9 @@ module.exports={
     redis_host: 'localhost',
     redis_db:'db',
     redis_password:'',
+    db_type:'mongo',//mongo  mysql
     connections:{
-        someMongoDb: {
+        mongo: {
             adapter: 'sails-mongo',
             host: 'localhost', // defaults to `localhost` if omitted
             port: 27017, // defaults to 27017 if omitted
@@ -22,13 +23,8 @@ module.exports={
             port      : 3306,
             user      : 'username',
             password  : 'password',
-            database  : 'MySQL Database Name',
+            database  : 'database_name',
             charset   : 'utf8'
-        },
-        redis: {
-            adapter: "sails-redis",
-            port: 6379,
-            host: 'localhost'
         }
     }
 

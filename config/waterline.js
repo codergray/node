@@ -5,23 +5,42 @@ var Waterline = require('waterline');
 var mongoAdapter = require('sails-mongo');
 var mysqlAdapter = require('sails-mysql');
 var config = require('./config');
-var user =require('../app/models/userModels');;
+var user =require('../app/models/userModels');
 var wlconfig = {
     adapters: {
-        mysql: mysqlAdapter,
-        default: mysqlAdapter
+        mongo: mongoAdapter,
+        default: mongoAdapter
     },
     connections:{
-        mysql: {
-            adapter: 'mysql',
-            host : config.connections.mysql.host,
-            port : config.connections.mysql.port,
-            user : config.connections.mysql.user,
-            password : config.connections.mysql.password,
-            database : config.connections.mysql.database
+        mongo: {
+            adapter: 'mongo',
+            host : config.connections.mongo.host,
+            port : config.connections.mongo.port,
+            user : config.connections.mongo.user,
+            password : config.connections.mongo.password,
+            database : config.connections.mongo.database
         }
     }
 };
+if(config.db_type=='mysql') {
+
+    wlconfig = {
+        adapters: {
+            mysql: mysqlAdapter,
+            default: mysqlAdapter
+        },
+        connections: {
+            mysql: {
+                adapter: 'mysql',
+                host: config.connections.mysql.host,
+                port: config.connections.mysql.port,
+                user: config.connections.mysql.user,
+                password: config.connections.mysql.password,
+                database: config.connections.mysql.database
+            }
+        }
+    };
+}
 var orm = new Waterline();
 orm.loadCollection(user);
 exports.wlconfig = wlconfig;
