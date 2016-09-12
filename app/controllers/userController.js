@@ -6,7 +6,10 @@ var logIndex =logger('logindex');
 var logList =logger('logList');
 module.exports={
     index:function(req, res, next) {
-        logIndex.error('user index')
+        req.models.user.create({name:'chenxiao'},function(err,model){
+            if(err) return logIndex.error('user index error',err);
+            logIndex.info('user index')
+        })
         res.send('user index')
     },
     list:function(req, res, next) {

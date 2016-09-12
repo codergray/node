@@ -258,3 +258,207 @@ Error: Failed to connect to MongoDB.  Are you sure your configured Mongo instanc
     at g (events.js:260:16)
     at emitTwo (events.js:87:13)
     at emit (events.js:172:7)
+[2016-09-12 11:08:45.308] [INFO] cheese - waterline initialize success.
+[2016-09-12 11:08:45.308] [INFO] cheese - waterline initialize success.
+[2016-09-12 11:08:45.314] [INFO] cheese - Express listening on port: 3008
+[2016-09-12 11:08:45.314] [INFO] cheese - Express listening on port: 3008
+[2016-09-12 11:08:52.742] [INFO] cheese - waterline initialize success.
+[2016-09-12 11:08:52.742] [INFO] cheese - waterline initialize success.
+[2016-09-12 11:08:52.762] [INFO] cheese - Express listening on port: 3008
+[2016-09-12 11:08:52.762] [INFO] cheese - Express listening on port: 3008
+[2016-09-12 11:09:09.663] [INFO] cheese - ::ffff:127.0.0.1 - - "GET / HTTP/1.1" 200 170 "" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36"
+[2016-09-12 11:09:09.663] [INFO] cheese - ::ffff:127.0.0.1 - - "GET / HTTP/1.1" 200 170 "" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36"
+[2016-09-12 11:09:09.676] [INFO] cheese - ::ffff:127.0.0.1 - - "GET /stylesheets/style.css HTTP/1.1" 200 119 "http://127.0.0.1:3008/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36"
+[2016-09-12 11:09:09.676] [INFO] cheese - ::ffff:127.0.0.1 - - "GET /stylesheets/style.css HTTP/1.1" 200 119 "http://127.0.0.1:3008/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36"
+[2016-09-12 11:09:09.830] [INFO] cheese - ::ffff:127.0.0.1 - - "GET /favicon.ico HTTP/1.1" 404 1306 "http://127.0.0.1:3008/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36"
+[2016-09-12 11:09:09.830] [INFO] cheese - ::ffff:127.0.0.1 - - "GET /favicon.ico HTTP/1.1" 404 1306 "http://127.0.0.1:3008/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36"
+[2016-09-12 11:09:15.727] [INFO] cheese - waterline initialize success.
+[2016-09-12 11:09:15.727] [INFO] cheese - waterline initialize success.
+[2016-09-12 11:09:15.741] [INFO] cheese - Express listening on port: 3008
+[2016-09-12 11:09:15.741] [INFO] cheese - Express listening on port: 3008
+[2016-09-12 11:09:24.689] [INFO] cheese - waterline initialize success.
+[2016-09-12 11:09:24.689] [INFO] cheese - waterline initialize success.
+[2016-09-12 11:09:24.696] [INFO] cheese - Express listening on port: 3008
+[2016-09-12 11:09:24.696] [INFO] cheese - Express listening on port: 3008
+[2016-09-12 11:11:09.513] [INFO] cheese - waterline initialize success.
+[2016-09-12 11:11:09.513] [INFO] cheese - waterline initialize success.
+[2016-09-12 11:11:09.519] [INFO] cheese - Express listening on port: 3008
+[2016-09-12 11:11:09.519] [INFO] cheese - Express listening on port: 3008
+[2016-09-12 11:11:11.766] [INFO] cheese - waterline initialize success.
+[2016-09-12 11:11:11.766] [INFO] cheese - waterline initialize success.
+[2016-09-12 11:11:11.778] [INFO] cheese - Express listening on port: 3008
+[2016-09-12 11:11:11.778] [INFO] cheese - Express listening on port: 3008
+[2016-09-12 11:11:21.256] [INFO] cheese - waterline initialize success.
+[2016-09-12 11:11:21.256] [INFO] cheese - waterline initialize success.
+[2016-09-12 11:11:21.273] [INFO] cheese - Express listening on port: 3008
+[2016-09-12 11:11:21.273] [INFO] cheese - Express listening on port: 3008
+[2016-09-12 11:11:25.038] [INFO] cheese - waterline initialize success.
+[2016-09-12 11:11:25.038] [INFO] cheese - waterline initialize success.
+[2016-09-12 11:11:25.057] [INFO] cheese - Express listening on port: 3008
+[2016-09-12 11:11:25.057] [INFO] cheese - Express listening on port: 3008
+[2016-09-12 11:12:43.958] [INFO] cheese - waterline initialize success.
+[2016-09-12 11:12:43.958] [INFO] cheese - waterline initialize success.
+[2016-09-12 11:12:43.970] [INFO] cheese - Express listening on port: 3008
+[2016-09-12 11:12:43.970] [INFO] cheese - Express listening on port: 3008
+[2016-09-12 11:13:09.689] [INFO] cheese - waterline initialize success.
+[2016-09-12 11:13:09.689] [INFO] cheese - waterline initialize success.
+[2016-09-12 11:13:09.704] [INFO] cheese - Express listening on port: 3008
+[2016-09-12 11:13:09.704] [INFO] cheese - Express listening on port: 3008
+[2016-09-12 11:13:46.201] [INFO] cheese - waterline initialize success.
+[2016-09-12 11:13:46.201] [INFO] cheese - waterline initialize success.
+[2016-09-12 11:13:46.213] [INFO] cheese - Express listening on port: 3008
+[2016-09-12 11:13:46.213] [INFO] cheese - Express listening on port: 3008
+[2016-09-12 11:16:21.515] [INFO] cheese - waterline initialize success.
+[2016-09-12 11:16:21.515] [INFO] cheese - waterline initialize success.
+[2016-09-12 11:16:21.527] [INFO] cheese - Express listening on port: 3008
+[2016-09-12 11:16:21.527] [INFO] cheese - Express listening on port: 3008
+[2016-09-12 11:16:37.972] [INFO] cheese - waterline initialize success.
+[2016-09-12 11:16:37.972] [INFO] cheese - waterline initialize success.
+[2016-09-12 11:16:37.987] [INFO] cheese - Express listening on port: 3008
+[2016-09-12 11:16:37.987] [INFO] cheese - Express listening on port: 3008
+[2016-09-12 11:17:14.181] [INFO] cheese - waterline initialize success.
+[2016-09-12 11:17:14.181] [INFO] cheese - waterline initialize success.
+[2016-09-12 11:17:14.190] [INFO] cheese - Express listening on port: 3008
+[2016-09-12 11:17:14.190] [INFO] cheese - Express listening on port: 3008
+[2016-09-12 11:17:21.984] [INFO] cheese - waterline initialize success.
+[2016-09-12 11:17:21.984] [INFO] cheese - waterline initialize success.
+[2016-09-12 11:17:21.999] [INFO] cheese - Express listening on port: 3008
+[2016-09-12 11:17:21.999] [INFO] cheese - Express listening on port: 3008
+[2016-09-12 11:17:23.987] [INFO] cheese - waterline initialize success.
+[2016-09-12 11:17:23.987] [INFO] cheese - waterline initialize success.
+[2016-09-12 11:17:23.998] [INFO] cheese - Express listening on port: 3008
+[2016-09-12 11:17:23.998] [INFO] cheese - Express listening on port: 3008
+[2016-09-12 11:18:19.559] [INFO] cheese - waterline initialize success.
+[2016-09-12 11:18:19.559] [INFO] cheese - waterline initialize success.
+[2016-09-12 11:18:19.568] [INFO] cheese - Express listening on port: 3008
+[2016-09-12 11:18:19.568] [INFO] cheese - Express listening on port: 3008
+[2016-09-12 11:18:23.886] [INFO] cheese - ::ffff:127.0.0.1 - - "GET /user HTTP/1.1" 500 1480 "" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36"
+[2016-09-12 11:18:23.886] [INFO] cheese - ::ffff:127.0.0.1 - - "GET /user HTTP/1.1" 500 1480 "" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36"
+[2016-09-12 11:18:23.901] [INFO] cheese - ::ffff:127.0.0.1 - - "GET /stylesheets/style.css HTTP/1.1" 304 - "http://127.0.0.1:3008/user" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36"
+[2016-09-12 11:18:23.901] [INFO] cheese - ::ffff:127.0.0.1 - - "GET /stylesheets/style.css HTTP/1.1" 304 - "http://127.0.0.1:3008/user" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36"
+[2016-09-12 11:18:36.786] [INFO] cheese - waterline initialize success.
+[2016-09-12 11:18:36.786] [INFO] cheese - waterline initialize success.
+[2016-09-12 11:18:36.805] [INFO] cheese - Express listening on port: 3008
+[2016-09-12 11:18:36.805] [INFO] cheese - Express listening on port: 3008
+[2016-09-12 11:19:09.258] [INFO] cheese - waterline initialize success.
+[2016-09-12 11:19:09.258] [INFO] cheese - waterline initialize success.
+[2016-09-12 11:19:09.274] [INFO] cheese - Express listening on port: 3008
+[2016-09-12 11:19:09.274] [INFO] cheese - Express listening on port: 3008
+[2016-09-12 11:19:13.651] [INFO] cheese - waterline initialize success.
+[2016-09-12 11:19:13.651] [INFO] cheese - waterline initialize success.
+[2016-09-12 11:19:13.665] [INFO] cheese - Express listening on port: 3008
+[2016-09-12 11:19:13.665] [INFO] cheese - Express listening on port: 3008
+[2016-09-12 11:19:21.731] [INFO] cheese - waterline initialize success.
+[2016-09-12 11:19:21.731] [INFO] cheese - waterline initialize success.
+[2016-09-12 11:19:21.750] [INFO] cheese - Express listening on port: 3008
+[2016-09-12 11:19:21.750] [INFO] cheese - Express listening on port: 3008
+[2016-09-12 11:19:25.054] [INFO] cheese - waterline initialize success.
+[2016-09-12 11:19:25.054] [INFO] cheese - waterline initialize success.
+[2016-09-12 11:19:25.065] [INFO] cheese - Express listening on port: 3008
+[2016-09-12 11:19:25.065] [INFO] cheese - Express listening on port: 3008
+[2016-09-12 11:19:36.971] [INFO] cheese - waterline initialize success.
+[2016-09-12 11:19:36.971] [INFO] cheese - waterline initialize success.
+[2016-09-12 11:19:36.983] [INFO] cheese - Express listening on port: 3008
+[2016-09-12 11:19:36.983] [INFO] cheese - Express listening on port: 3008
+[2016-09-12 11:19:37.435] [INFO] cheese - ::ffff:127.0.0.1 - - "GET /user HTTP/1.1" 500 1456 "" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36"
+[2016-09-12 11:19:37.435] [INFO] cheese - ::ffff:127.0.0.1 - - "GET /user HTTP/1.1" 500 1456 "" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36"
+[2016-09-12 11:19:37.450] [INFO] cheese - ::ffff:127.0.0.1 - - "GET /stylesheets/style.css HTTP/1.1" 304 - "http://127.0.0.1:3008/user" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36"
+[2016-09-12 11:19:37.450] [INFO] cheese - ::ffff:127.0.0.1 - - "GET /stylesheets/style.css HTTP/1.1" 304 - "http://127.0.0.1:3008/user" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36"
+[2016-09-12 11:19:50.241] [INFO] cheese - waterline initialize success.
+[2016-09-12 11:19:50.241] [INFO] cheese - waterline initialize success.
+[2016-09-12 11:19:50.258] [INFO] cheese - Express listening on port: 3008
+[2016-09-12 11:19:50.258] [INFO] cheese - Express listening on port: 3008
+[2016-09-12 11:19:52.974] [INFO] cheese - waterline initialize success.
+[2016-09-12 11:19:52.974] [INFO] cheese - waterline initialize success.
+[2016-09-12 11:19:52.993] [INFO] cheese - Express listening on port: 3008
+[2016-09-12 11:19:52.993] [INFO] cheese - Express listening on port: 3008
+[2016-09-12 11:19:56.045] [INFO] cheese - waterline initialize success.
+[2016-09-12 11:19:56.045] [INFO] cheese - waterline initialize success.
+[2016-09-12 11:19:56.060] [INFO] cheese - Express listening on port: 3008
+[2016-09-12 11:19:56.060] [INFO] cheese - Express listening on port: 3008
+[2016-09-12 11:19:57.470] [INFO] cheese - ::ffff:127.0.0.1 - - "GET /user HTTP/1.1" 500 1481 "" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36"
+[2016-09-12 11:19:57.470] [INFO] cheese - ::ffff:127.0.0.1 - - "GET /user HTTP/1.1" 500 1481 "" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36"
+[2016-09-12 11:19:57.477] [INFO] cheese - ::ffff:127.0.0.1 - - "GET /stylesheets/style.css HTTP/1.1" 304 - "http://127.0.0.1:3008/user" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36"
+[2016-09-12 11:19:57.477] [INFO] cheese - ::ffff:127.0.0.1 - - "GET /stylesheets/style.css HTTP/1.1" 304 - "http://127.0.0.1:3008/user" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36"
+[2016-09-12 11:20:07.330] [INFO] cheese - waterline initialize success.
+[2016-09-12 11:20:07.330] [INFO] cheese - waterline initialize success.
+[2016-09-12 11:20:07.349] [INFO] cheese - Express listening on port: 3008
+[2016-09-12 11:20:07.349] [INFO] cheese - Express listening on port: 3008
+[2016-09-12 11:21:22.021] [INFO] cheese - waterline initialize success.
+[2016-09-12 11:21:22.021] [INFO] cheese - waterline initialize success.
+[2016-09-12 11:21:22.028] [INFO] cheese - Express listening on port: 3008
+[2016-09-12 11:21:22.028] [INFO] cheese - Express listening on port: 3008
+[2016-09-12 11:27:48.964] [INFO] cheese - waterline initialize success.
+[2016-09-12 11:27:48.964] [INFO] cheese - waterline initialize success.
+[2016-09-12 11:27:48.980] [INFO] cheese - Express listening on port: 3008
+[2016-09-12 11:27:48.980] [INFO] cheese - Express listening on port: 3008
+[2016-09-12 11:28:33.852] [INFO] cheese - waterline initialize success.
+[2016-09-12 11:28:33.852] [INFO] cheese - waterline initialize success.
+[2016-09-12 11:28:33.872] [INFO] cheese - Express listening on port: 3008
+[2016-09-12 11:28:33.872] [INFO] cheese - Express listening on port: 3008
+[2016-09-12 11:29:38.597] [INFO] cheese - waterline initialize success.
+[2016-09-12 11:29:38.597] [INFO] cheese - waterline initialize success.
+[2016-09-12 11:29:38.606] [INFO] cheese - Express listening on port: 3008
+[2016-09-12 11:29:38.606] [INFO] cheese - Express listening on port: 3008
+[2016-09-12 11:29:54.671] [INFO] cheese - waterline initialize success.
+[2016-09-12 11:29:54.671] [INFO] cheese - waterline initialize success.
+[2016-09-12 11:29:54.684] [INFO] cheese - Express listening on port: 3008
+[2016-09-12 11:29:54.684] [INFO] cheese - Express listening on port: 3008
+[2016-09-12 11:30:15.728] [INFO] cheese - waterline initialize success.
+[2016-09-12 11:30:15.728] [INFO] cheese - waterline initialize success.
+[2016-09-12 11:30:15.764] [INFO] cheese - Express listening on port: 3008
+[2016-09-12 11:30:15.764] [INFO] cheese - Express listening on port: 3008
+[2016-09-12 11:30:47.885] [INFO] cheese - waterline initialize success.
+[2016-09-12 11:30:47.885] [INFO] cheese - waterline initialize success.
+[2016-09-12 11:30:47.938] [INFO] cheese - Express listening on port: 3008
+[2016-09-12 11:30:47.938] [INFO] cheese - Express listening on port: 3008
+[2016-09-12 11:33:28.165] [INFO] cheese - waterline initialize success.
+[2016-09-12 11:33:28.165] [INFO] cheese - waterline initialize success.
+[2016-09-12 11:33:28.188] [INFO] cheese - Express listening on port: 3008
+[2016-09-12 11:33:28.188] [INFO] cheese - Express listening on port: 3008
+[2016-09-12 11:33:29.899] [INFO] cheese - waterline initialize success.
+[2016-09-12 11:33:29.899] [INFO] cheese - waterline initialize success.
+[2016-09-12 11:33:29.943] [INFO] cheese - Express listening on port: 3008
+[2016-09-12 11:33:29.943] [INFO] cheese - Express listening on port: 3008
+[2016-09-12 11:33:35.411] [INFO] cheese - waterline initialize success.
+[2016-09-12 11:33:35.411] [INFO] cheese - waterline initialize success.
+[2016-09-12 11:33:35.438] [INFO] cheese - Express listening on port: 3008
+[2016-09-12 11:33:35.438] [INFO] cheese - Express listening on port: 3008
+[2016-09-12 11:35:07.846] [INFO] cheese - waterline initialize success.
+[2016-09-12 11:35:07.846] [INFO] cheese - waterline initialize success.
+[2016-09-12 11:35:07.894] [INFO] cheese - Express listening on port: 3008
+[2016-09-12 11:35:07.894] [INFO] cheese - Express listening on port: 3008
+[2016-09-12 11:35:17.270] [INFO] cheese - waterline initialize success.
+[2016-09-12 11:35:17.270] [INFO] cheese - waterline initialize success.
+[2016-09-12 11:35:17.316] [INFO] cheese - Express listening on port: 3008
+[2016-09-12 11:35:17.316] [INFO] cheese - Express listening on port: 3008
+[2016-09-12 11:35:24.968] [INFO] cheese - waterline initialize success.
+[2016-09-12 11:35:24.968] [INFO] cheese - waterline initialize success.
+[2016-09-12 11:35:25.005] [INFO] cheese - Express listening on port: 3008
+[2016-09-12 11:35:25.005] [INFO] cheese - Express listening on port: 3008
+[2016-09-12 11:35:27.112] [INFO] cheese - ::ffff:127.0.0.1 - - "GET /user HTTP/1.1" 200 10 "" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36"
+[2016-09-12 11:35:27.112] [INFO] cheese - ::ffff:127.0.0.1 - - "GET /user HTTP/1.1" 200 10 "" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36"
+[2016-09-12 11:36:15.697] [INFO] cheese - waterline initialize success.
+[2016-09-12 11:36:15.697] [INFO] cheese - waterline initialize success.
+[2016-09-12 11:36:15.719] [INFO] cheese - Express listening on port: 3008
+[2016-09-12 11:36:15.719] [INFO] cheese - Express listening on port: 3008
+[2016-09-12 11:36:18.629] [INFO] cheese - waterline initialize success.
+[2016-09-12 11:36:18.629] [INFO] cheese - waterline initialize success.
+[2016-09-12 11:36:18.670] [INFO] cheese - Express listening on port: 3008
+[2016-09-12 11:36:18.670] [INFO] cheese - Express listening on port: 3008
+[2016-09-12 11:36:25.061] [INFO] cheese - waterline initialize success.
+[2016-09-12 11:36:25.061] [INFO] cheese - waterline initialize success.
+[2016-09-12 11:36:25.106] [INFO] cheese - Express listening on port: 3008
+[2016-09-12 11:36:25.106] [INFO] cheese - Express listening on port: 3008
+[2016-09-12 11:36:29.364] [INFO] cheese - waterline initialize success.
+[2016-09-12 11:36:29.364] [INFO] cheese - waterline initialize success.
+[2016-09-12 11:36:29.383] [INFO] cheese - Express listening on port: 3008
+[2016-09-12 11:36:29.383] [INFO] cheese - Express listening on port: 3008
+[2016-09-12 11:37:03.066] [INFO] cheese - waterline initialize success.
+[2016-09-12 11:37:03.066] [INFO] cheese - waterline initialize success.
+[2016-09-12 11:37:03.074] [INFO] cheese - Express listening on port: 3008
+[2016-09-12 11:37:03.074] [INFO] cheese - Express listening on port: 3008
+[2016-09-12 11:37:05.649] [INFO] cheese - waterline initialize success.
+[2016-09-12 11:37:05.649] [INFO] cheese - waterline initialize success.
+[2016-09-12 11:37:05.673] [INFO] cheese - Express listening on port: 3008
+[2016-09-12 11:37:05.673] [INFO] cheese - Express listening on port: 3008

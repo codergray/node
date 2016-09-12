@@ -33,7 +33,6 @@ waterline.orm.initialize(waterline.wlconfig,function(err,models){
         return;
       }
       logger.info('waterline initialize success.');
-
       app.set('models', models.collections);
 
       app.listen(port, function(){

@@ -2,12 +2,12 @@
  * Created by arno on 2016/9/10.
  */
 module.exports={
-    port:3000,
+    port:3008,
     redis_port: 6379,
     redis_host: 'localhost',
     redis_db:'db',
     redis_password:'',
-    db_type:'mongo',//mongo  mysql
+    db_type:'mysql',//mongo  mysql
     connections:{
         mongo: {
             adapter: 'sails-mongo',
@@ -19,11 +19,11 @@ module.exports={
         },
         mysql: {
             module    : 'sails-mysql',
-            host      : 'localhost',
-            port      : 3306,
-            user      : 'username',
-            password  : 'password',
-            database  : 'database_name',
+            host      : '172.16.20.182',
+            port      : 5656,
+            user      : 'wy_test1',
+            password  : 'A123a456',
+            database  : 'app_test',
             charset   : 'utf8'
         }
     }
