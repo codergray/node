@@ -7,7 +7,8 @@ module.exports={
     redis_host: 'localhost',
     redis_db:'db',
     redis_password:'',
-    db_type:'mysql',//mongo  mysql
+    db_type:'mysql',//mongo  mysql,
+    secret:'11111111111111111',
     connections:{
         mongo: {
             adapter: 'sails-mongo',

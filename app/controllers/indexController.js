@@ -4,7 +4,7 @@
 var logger = require('../../server/logger')('logindex');
 module.exports={
     index:function(req, res, next) {
-        logger.info('home')
+        //logger.info('home')
         res.render('index', { title: 'Express'})
     }
 }
