@@ -8,6 +8,7 @@ var routes = require('./app/routes/index');
 var config = require("./config/config");
 var log4js = require("log4js");
 var logger = require("./server/logger");
+var response = require("./server/response");
 
 var app = express();
 
@@ -27,6 +28,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(function(req, res, next){
   req.models = app.get('models');
   req.superSecret = config.secret;
+  req.response= response.response;
+  req.status = response.status;
   next();
 });
 routes(app);
