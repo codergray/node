@@ -462,3 +462,9 @@ Error: Failed to connect to MongoDB.  Are you sure your configured Mongo instanc
 [2016-09-12 11:37:05.649] [INFO] cheese - waterline initialize success.
 [2016-09-12 11:37:05.673] [INFO] cheese - Express listening on port: 3008
 [2016-09-12 11:37:05.673] [INFO] cheese - Express listening on port: 3008
+[2016-09-12 12:25:02.881] [INFO] cheese - waterline initialize success.
+[2016-09-12 12:25:02.881] [INFO] cheese - waterline initialize success.
+[2016-09-12 12:25:02.886] [INFO] cheese - Express listening on port: 3008
+[2016-09-12 12:25:02.886] [INFO] cheese - Express listening on port: 3008
+[2016-09-12 12:25:15.838] [INFO] cheese - ::ffff:127.0.0.1 - - "GET /user HTTP/1.1" 304 - "" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36"
+[2016-09-12 12:25:15.838] [INFO] cheese - ::ffff:127.0.0.1 - - "GET /user HTTP/1.1" 304 - "" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36"

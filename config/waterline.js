@@ -5,7 +5,7 @@ var Waterline = require('waterline');
 var mongoAdapter = require('sails-mongo');
 var mysqlAdapter = require('sails-mysql');
 var config = require('./config');
-var user =require('../app/models/userModels');
+var Models =require('../app/models/');
 var wlconfig = {
     adapters: {
         mongo: mongoAdapter,
@@ -42,6 +42,8 @@ if(config.db_type=='mysql') {
     };
 }
 var orm = new Waterline();
-orm.loadCollection(user);
+for ( var key in Models ) {
+    orm.loadCollection(Models[key]);
+}
 exports.wlconfig = wlconfig;
 exports.orm = orm;
