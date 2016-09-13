@@ -38,6 +38,9 @@ if(config.db_type=='mysql') {
                 password: config.connections.mysql.password,
                 database: config.connections.mysql.database
             }
+        },
+        defaults: {
+            migrate: 'safe' //这个注意啊，如果是争对已经有的数据库一定要注意，小心把表全删除了
         }
     };
 }

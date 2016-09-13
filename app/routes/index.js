@@ -12,16 +12,16 @@ module.exports = function(app){
     if(token) {
       jwt.verify(token, req.superSecret, function(err, decoded) {
         if (err) {
-          return res.json({ success: false, message: 'Failed to authenticate token.' });
+          return res.json(req.response(req.status.TOKEN_ERROR));
         } else {
           if(new Date().getTime() > decoded.exp*1000 ){
-            return res.json({ success: false, message: 'authenticate token expire' });
+            return res.json(req.response(req.status.TOKEN_ERROR));
           }
           next();
         }
       });
     }else{
-      return res.json({ success: false, message: 'not authenticate token.' });
+      return res.json(req.response(req.status.TOKEN_ERROR));
     }
 
   });
