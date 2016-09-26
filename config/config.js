@@ -20,11 +20,11 @@ module.exports={
         },
         mysql: {
             module    : 'sails-mysql',
-            host      : '172.16.20.160',
-            port      : 3308,
-            user      : 'test',
-            password  : 'Aa111111',
-            database  : 'app_test',
+            host      : 'qdm164639335.my3w.com',
+            port      : 3306,
+            user      : 'qdm164639335',
+            password  : 'xiaochen100200',
+            database  : 'qdm164639335_db',
             charset   : 'utf8'
         }
     }
