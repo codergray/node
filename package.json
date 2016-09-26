@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "supervisor  ./bin/www",
+    "start": "supervisor   --ignore ./logs/* ./bin/www",
+    "wsstart": "supervisor   --ignore ./logs/* ./bin/ws.js",
     "nodeStart": "node  ./bin/www"
   },
   "author": "arno",
@@ -21,6 +22,7 @@
     "supervisor": "^0.11.0",
     "waterline": "^0.12.2",
     "jsonwebtoken": "^7.1.9",
-    "express-session": "^1.14.1"
+    "express-session": "^1.14.1",
+    "ws": "^1.1.1"
   }
 }
