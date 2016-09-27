@@ -39,6 +39,7 @@ waterline.orm.initialize(waterline.wlconfig, function (err, models) {
     var userServer = {};
     var userName = {};
     var server = require('http').createServer(app);
+
     var io = require('socket.io').listen(server);
 
 
@@ -86,7 +87,7 @@ waterline.orm.initialize(waterline.wlconfig, function (err, models) {
 
         }
     );
-    server.listen(port, function () {
+    server.listen(port,'192.168.0.5', function () {
         console.log('listening on *:', port);
     });
 
