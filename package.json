@@ -3,8 +3,9 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "supervisor   --ignore ./logs/* ./bin/www",
-    "wsstart": "supervisor   --ignore ./logs/* ./bin/ws.js",
+    "start": "supervisor   --ignore ./logs/*.log ./bin/www",
+    "wsstart": "supervisor   --ignore ./logs/*.log ./bin/ws.js",
+    "iostart": "supervisor   --ignore ./logs/*.log ./bin/io.js",
     "nodeStart": "node  ./bin/www"
   },
   "author": "arno",
@@ -23,6 +24,7 @@
     "waterline": "^0.12.2",
     "jsonwebtoken": "^7.1.9",
     "express-session": "^1.14.1",
-    "ws": "^1.1.1"
+    "ws": "^1.1.1",
+    "socket.io": "^1.4.8"
   }
 }

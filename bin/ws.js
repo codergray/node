@@ -36,7 +36,8 @@ waterline.orm.initialize(waterline.wlconfig, function (err, models) {
     }
     logger.info('waterline initialize success.');
     app.set('models', models.collections);
-
+    var userServer = {};
+    var userName = {};
     var server = require('http').createServer()
         , url = require('url')
         , WebSocketServer = require('ws').Server
@@ -44,32 +45,44 @@ waterline.orm.initialize(waterline.wlconfig, function (err, models) {
     wss.on('connection', function connection(ws) {
             var location = url.parse(ws.upgradeReq.url, true);
 
-            var userServer = {};
-            var userName = {};
-            ws.on('newUser', function incoming(data) {
-                    var nickname = data.user_name,
-                        user_id = data.user_id;
-                    userServer[user_id] = socket;
-                    userName[user_id] = nickname;
-                }
-            );
+
             ws.on('message', function incoming(data) {   //data.to  发给你对像　　data.user 自己　data.msg
-                    console.log('received: %s', data);
-                    var newData =JSON.parse(data);
-                    userServer[newData.to].emit('to' + newData.to, data);
+                   console.log('message',data);
+                    var newData = JSON.parse(data);
+                    if(newData.type == 'newUser'){
+                        var nickname = newData.user_name,
+                            user_id = newData.user_id;
+                        userServer[user_id] = ws;
+                        userName[user_id] = nickname;
+                        console.log(userServer);
+                    }else{
+                        if(userServer[newData.to]){
+                            console.log('在线',newData);
+                            userServer[newData.to].emit('to' + newData.to, data);
+                            userServer[newData.user].emit('to' + newData.user, data);
+                        }else{
+                            console.log('不在线');
+                        }
+
+                    }
+
                 }
             );
-            ws.on('close', function (data) {
-                console.log( data);
+            ws.on('close', function () {
+                console.log(JSON.stringify(process.memoryUsage()));
+            })
+            ws.on('open', function (data) {
+                console.log('open', data);
             })
 
-            models.collections.user.findOne({name: 'username'}, function (err, model) {
-                if (err) return logger.error('post db error select user name ', err);
-                console.log(model);
-                ws.send(JSON.stringify(model));
-                console.log(location);
-            });
+            //models.collections.user.findOne({name: 'chenxiao'}, function (err, model) {
+            //    if (err) return logger.error('post db error select user name ', err);
+            //    console.log(model);
+            //    ws.send(JSON.stringify(model));
+            //});
             ws.send('something');
+            console.log('arry',ws.clients);
+            //ws.send(JSON.stringify(process.memoryUsage()));
 
 
         }
