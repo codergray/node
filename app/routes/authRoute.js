@@ -3,9 +3,9 @@ var express = require('express');
 var router = express.Router();
 var Auth = require('../controllers/authController');
 
-router.post('/', Auth.post);
+router.post('/login', Auth.post);
 
-router.post('/add', Auth.add);
+router.post('/register', Auth.add);
 
 module.exports = router;
 

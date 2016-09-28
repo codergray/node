@@ -6,7 +6,7 @@ var authRoutes = require('./authRoute');
 var logger = require('../../server/logger')('test');
 module.exports = function(app){
 
-  app.use('/login', authRoutes);
+  app.use('/', authRoutes);
   app.use(function(req, res, next){
     var token =  req.headers.authorization ;
     if(token) {

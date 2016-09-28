@@ -27,7 +27,8 @@ module.exports = {
                 return res.json(req.response(req.status.AUTH_ERROR,'','账号已存在'));
             }
             req.models.user.create({name: req.body.name, password: req.body.password}, function (err, model) {
-                if (err)  return res.json({success: false, message: 'error '});
+                if (err)  return res.json(req.response(req.status.DB_ERROR ,err));
+
                 return res.json(req.response(req.status.OK ,model))
             });
         });
