@@ -12,18 +12,20 @@ module.exports={
     },
     list:function(req, res, next) {
         req.models.relationship.find({'user_id':req.user_id},function(err,model){
-            if(err) return req.response(req.status.DB_ERROR ,err);
+            if(err) return res.json(req.response(req.status.DB_ERROR ,err));
             var friendIds=[];
             model.forEach(function(d){
                 friendIds.push(d.friend_id);
             })
-            console.log(friendIds);
             if(friendIds.length <= 0){
-                return req.response(req.status.OK ,[])
+                return res.json(req.response(req.status.OK ,[]))
             }
-            req.models.user.find({'user_id':friendIds},function(err,models){
-                if(err) return  req.response(req.status.DB_ERROR ,err);
-            return req.response(req.status.OK ,models)
+            req.models.user.find({'id':friendIds},function(err,models){
+                if(err) return  res.json(req.response(req.status.DB_ERROR ,err));
+                models.forEach(function(d){
+                    delete d.password;
+                });
+            return res.json(req.response(req.status.OK ,models))
             })
         })
 
