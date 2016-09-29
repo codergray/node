@@ -1,9 +1,7 @@
 /**
  * Created by arno on 2016/9/10.
  */
-var logger = require('../../server/logger');
-var logIndex =logger('logindex');
-var logList =logger('logList');
+
 module.exports={
     index:function(req, res, next) {
         req.models.user.create({name:'chenxiao',password:'111111'},function(err,model){
@@ -13,7 +11,21 @@ module.exports={
         res.send('user index')
     },
     list:function(req, res, next) {
-        logList.info('user list')
-        res.send('user list')
+        req.models.relationship.find({'user_id':req.user_id},function(err,model){
+            if(err) return req.response(req.status.DB_ERROR ,err);
+            var friendIds=[];
+            model.forEach(function(d){
+                friendIds.push(d.friend_id);
+            })
+            console.log(friendIds);
+            if(friendIds.length <= 0){
+                return req.response(req.status.OK ,[])
+            }
+            req.models.user.find({'user_id':friendIds},function(err,models){
+                if(err) return  req.response(req.status.DB_ERROR ,err);
+            return req.response(req.status.OK ,models)
+            })
+        })
+
     }
 }

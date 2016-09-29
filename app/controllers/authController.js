@@ -8,12 +8,12 @@ module.exports = {
     post: function (req, res, next) {
 
         req.models.user.findOne({name: req.body.name}, function (err, model) {
-            if (err) return logger.error('post db error select user name ', err);
+            if (err) return res.json(req.response(req.status.DB_ERROR ,err));
             if ( model &&req.body.password == model.password) {
                 var token = jwt.sign(model, req.superSecret, {
                     expiresIn: 86400 // expires in 24 hours
                 });
-                return res.json(req.response(req.status.OK ,{name:model.name,token:token}));
+                return res.json(req.response(req.status.OK ,{name:model.name,token:token,id:model.id}));
             }
             return res.json(req.response(req.status.AUTH_ERROR));
         });
@@ -22,7 +22,7 @@ module.exports = {
     add: function (req, res, next) {
 
         req.models.user.findOne({name: req.body.name}, function (err, m) {
-            if (err)  return logger.error('add db error select user name ', err);
+            if (err) return res.json(req.response(req.status.DB_ERROR ,err));
             if(m&& m.name == req.body.name){
                 return res.json(req.response(req.status.AUTH_ERROR,'','账号已存在'));
             }

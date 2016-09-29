@@ -23,7 +23,7 @@ module.exports={
             host      : 'qdm164639335.my3w.com',
             port      : 3306,
             user      : 'qdm164639335',
-            password  : '',
+            password  : 'xiaochen100200',
             database  : 'qdm164639335_db',
             charset   : 'utf8'
         }

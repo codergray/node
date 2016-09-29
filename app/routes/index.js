@@ -12,11 +12,12 @@ module.exports = function(app){
     if(token) {
       jwt.verify(token, req.superSecret, function(err, decoded) {
         if (err) {
-          return res.json(req.response(req.status.TOKEN_ERROR));
+          return req.response(req.status.TOKEN_ERROR);
         } else {
           if(new Date().getTime() > decoded.exp*1000 ){
-            return res.json(req.response(req.status.TOKEN_ERROR));
+            return req.response(req.status.TOKEN_ERROR);
           }
+          req.user_id= decoded.id;
           next();
         }
       });

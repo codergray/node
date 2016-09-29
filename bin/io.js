@@ -37,7 +37,7 @@ waterline.orm.initialize(waterline.wlconfig, function (err, models) {
     logger.info('waterline initialize success.');
     app.set('models', models.collections);
     var userServer = {};
-    var userName = {};
+    var userIds = {};
     var server = require('http').createServer(app);
 
     var io = require('socket.io').listen(server);
@@ -46,11 +46,10 @@ waterline.orm.initialize(waterline.wlconfig, function (err, models) {
     io.on('connection', function connection(ws) {
             ws.emit('news', {type: 'add'});
             ws.on('newUser', function (data) {
-                var nickname = data.user_name,
-                    user_id = data.user_id;
+                var user_id = data.user_id;
                 userServer[user_id] = ws;
-                userName[ws.id] = user_id;
-                console.log(userName);
+                userIds[ws.id] = user_id;
+                console.log(userIds);
             });
 
 
@@ -67,9 +66,8 @@ waterline.orm.initialize(waterline.wlconfig, function (err, models) {
             );
 
             ws.on('disconnect', function () {
-                console.log(ws.id)
-                delete  userServer[userName[ws.id]];
-                delete  userName[ws.id];
+                delete  userServer[userIds[ws.id]];
+                delete  userIds[ws.id];
             })
             ws.on('msg', function (data) {
                 io.emit('onlineCount', freeList)
@@ -87,7 +85,7 @@ waterline.orm.initialize(waterline.wlconfig, function (err, models) {
 
         }
     );
-    server.listen(port,'192.168.0.5', function () {
+    server.listen(port,'172.17.5.78', function () {
         console.log('listening on *:', port);
     });
 

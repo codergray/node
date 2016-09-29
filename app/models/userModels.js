@@ -8,6 +8,9 @@ module.exports = Waterline.Collection.extend({
     connection: config.db_type,
     attributes: {
         name: {type: 'string'},
-        password:{type: 'string'}
+        password:{type: 'string'},
+        head:{type: 'string'},
+        phone:{type: 'string'},
+        email:{type: 'string'}
     }
 })
